@@ -1,0 +1,13 @@
+name: PurgeHunter
+version: 3.0.0
+main: com.example.purgehunter.PurgeHunter
+api-version: '26.2'
+description: Purge Hunter SMP - one hunter, everyone else runs
+commands:
+  purge:
+    description: Control the Purge
+    usage: /purge <start|stop|status|reload>
+permissions:
+  purgehunter.admin:
+    description: Start, stop and reload the Purge
+    default: op
